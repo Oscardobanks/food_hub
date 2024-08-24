@@ -1,0 +1,205 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link{
+    color:#0A86D9 ;
+}
+
+.nav-link:first-child{
+    color: #F35A0A;
+    font-size: large;
+}
+
+.nav-link:active{
+    color: #F35A0A;
+}
+
+button{
+    justify-content: left;
+    background-color: aliceblue;
+}
+
+.btn{
+    font-size: smaller;
+    background-color: #F35A0A;
+    width: auto;
+}
+
+.btn:hover{
+    background-color: #F35A0A;
+}
+
+.bacgrd{
+    background-image: url('Images/pexels-1095550.png');
+}
+
+.bacgrd1{
+    background-image: url('Images/pexels-100.png');
+    background-size: 50%;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-position-x: 350px;    
+}
+
+.para1{
+    font-size: 50px;
+    color: #0A86D9;
+}
+
+.cont{
+    margin-left: 160px;
+    margin-top: 100px;
+}
+
+.heada{
+    color: #0A86D9;
+}
+
+.bton2{
+    border-color: #F35A0A;
+    background-color: white;
+    font-size: small;
+    color: #0A86D9;
+}
+
+.bton2:hover{
+    font-size: small;
+    color: white;
+    background-color: #F35A0A;
+    width: auto;
+}
+
+.clr-head{
+    color: #F35A0A;
+}
+
+.foot{
+    margin-left: 15%;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #0A86D9;
+}
+
+.bton3{
+    width: auto;
+    height: 35px;
+}
+
+.image img{
+    width: 20px;
+}
+
+
+       /* MENU TAB  */
+.bcgrawn{
+    background-image: url('Images/pexels-chan-walrus-958545.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.bcgrawn1{
+    padding-left: 10%;
+    padding-top: 314px;
+    padding-bottom: 5px;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 50px;
+}
+
+.bgi{
+    background-color:rgba(243, 90, 10,0.7);
+    border-top: #F35A0A solid 10px;
+    border-bottom: #F35A0A solid 10px;
+}
+
+
+    /*  ABOUT TAB  */
+
+#sect{
+    background-image: url('Images/pexels-lisa-fotios-1126728.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);  
+}
+
+.sect1{  
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+.sect2{
+     font-size: 70px;
+}
+
+.tex{
+    align-self: center;
+}
+
+.cardo:hover h2{
+    color: #f35a0a;
+}
+
+.cardo{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-radius: 5px; 
+}
+
+.cardo:hover {
+    box-shadow: 0 8px 16px 0 rgba(243, 90, 10,0.3);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+    background-color: #717171;
+}
+
+
+    /*  SERVICES TAB    */
+.bacgrawn{
+    background-image: url('Images/Rectangle\ 9.png');
+    background-position: center;
+}
+
+.bacgrawn1{
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-size: 60px;
+}
+
+
+    /*  CONTACT TAB */
+.bacgrd2{
+    background-image: url('Images/pexels-1095550.png');
+    background-position: bottom;
+    height: 300px;
+    padding-top: 13%;
+    padding-left: 8%;
+}
+
+.bacgrd2 h1{
+    font-size: 4rem;
+}
